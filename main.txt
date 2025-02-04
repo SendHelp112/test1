@@ -6,9 +6,11 @@ int main(int argc, char **argv)
 {
     char first[255], last[255];
 
-    askname(first, last);
+    askname(first, last); /*this is boring*/
 
     printf("Hello, %s %s!\n", first, last);
+    printf("I welcome you in this great white page\n");
+    printf("Can we be friends? :D\n");
     return 0;
 }
 
